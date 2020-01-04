@@ -1,0 +1,31 @@
+#0 Benvenuto nel gioco!
+Introduzione
+Un po' di storiella...
+Succede qualcosa, devi interagire! Cosa vuoi fare? 
+#1 scappo #2 affronto il mostro #3 mi arrendo
+#1{
+Testo di quello che succede scappando...Altra interazione, cosa vuoi fare?
+#11 Sei morto torna indietro
+}
+#2{
+Testo di quello che succede se affronti il mostro...
+#21 Doppia sciabolata alla pancia per metterlo k.o. #22 Piroetta e affondo
+#21{
+    È resistente alle sciabole!
+    #211 Sei morto torna indietro
+}
+#22{
+    Ottima mossa è morto!
+    #221 Lo so sono bravissimo #222 Non pensavo di farcela
+#221{
+    Troppa arroganza, hai perso
+}
+#222{
+    La modestia è la virtù dei saggi, hai vinto!
+}
+}
+}
+#3{
+    Testo di quello che succede scappando...Altra interazione, cosa vuoi fare?
+#31 Sei morto torna indietro
+}
