@@ -1,7 +1,4 @@
-#game engine for a text-based game
-#it reads a file that contains the structure and text of the game
-#and also reads and writes a file that contains the choices made by the player
-#the files are respectively game.dat, status.dat
+#main.py
 import json
 from time import sleep
 with open("game.dat","r") as file:

@@ -29,6 +29,7 @@ splitting the storyline by chronological order or simply by some big choices, i.
 A script to help the screenwriter write the game.dat must be written. 
 
 # Game Writer
+
 The game_writer.py is the file that lets the screenwriter write the game.dat file. The writer is asked a sequence of questions to
 determine the structure of the game. He must input for each node title, text and the options. Suppose we want to write the beginning of the story first we need to tell game_writer.py the title of the story, then an introduction and the text until
 the first question is asked. At this point we need to include the question in the text, specify in the options section one node

@@ -1,4 +1,4 @@
-#write.py
+#game_writer.py
 import json
 import sys
 structure={}
